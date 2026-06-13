@@ -1,0 +1,288 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SEITE */
+body {
+    background: #fff200;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/* STARTBEREICH */
+.startbereich {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+/* GROSSE HEADLINE */
+h1 {
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 120px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #d85a2a;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+/* UNTERHEADLINES */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #2ba8ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 a {
+    color: #2ba8ff;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #d85a2a;
+}
+
+/* FLIESSTEXT */
+p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #111111;
+    text-align: center;
+}
+
+/* ARBEITSBEREICHE */
+.arbeitsbereich {
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.arbeitsbereich h2 {
+    margin-bottom: 20px;
+}
+
+/* STARTSEITEN-KACHELN */
+.kachel-container {
+    margin-top: 0;
+}
+
+.kachel {
+    display: block;
+    text-decoration: none;
+    color: #111111;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top: 3px solid #111111;
+    transition: all 0.3s ease;
+}
+
+.kachel:last-child {
+    border-bottom: 3px solid #111111;
+}
+
+.kachel:hover {
+    padding-left: 40px;
+}
+
+.kachel:hover span {
+    color: #2ba8ff;
+}
+
+.kachel span {
+    display: block;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 90px;
+    line-height: 0.95;
+    color: #d85a2a;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.kachel small {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #444444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ARTIKELLISTEN */
+.artikel-liste {
+    margin-top: 30px;
+}
+
+.artikel-liste a {
+    display: block;
+    padding: 18px 0;
+    border-top: 1px solid #111111;
+    text-decoration: none;
+    color: #111111;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.artikel-liste a:last-child {
+    border-bottom: 1px solid #111111;
+}
+
+.artikel-liste a:hover {
+    padding-left: 20px;
+    color: #d85a2a;
+}
+
+.artikel-liste span {
+    display: inline-block;
+    width: 60px;
+    color: #2ba8ff;
+    font-weight: bold;
+}
+
+/* PROFILBILD */
+.profilbereich {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.profilbereich img {
+    display: block;
+    margin: auto;
+    width: 400px;
+    max-width: 100%;
+    border: 6px solid #111111;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    border-top: 3px solid #111111;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+
+footer a {
+    color: #2ba8ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d85a2a;
+}
+
+footer span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    h1 {
+        font-size: 65px;
+    }
+
+    .kachel span {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .artikel-liste a {
+        font-size: 20px;
+    }
+}
+.arbeitsbereich {
+    margin-top: 70px;
+    margin-bottom: 90px;
+
+    border-top: 6px solid #111111;
+
+    padding-top: 30px;
+}
+
+.erste-sektion {
+    margin-top: 20px;
+}
+
+
+
+
+
+.pdf-liste {
+    margin-top: 25px;
+}
+
+.pdf-liste a {
+    display: block;
+    padding: 28px 0;
+    border-top: 3px solid #111111;
+    text-decoration: none;
+    color: #d85a2a;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    transition: 0.3s;
+}
+
+.pdf-liste a:last-child {
+    border-bottom: 3px solid #111111;
+}
+
+.pdf-liste a:hover {
+    padding-left: 35px;
+    color: #2ba8ff;
+}
+
+.pdf-liste span {
+    display: inline-block;
+    width: 70px;
+    color: #111111;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.pdf-liste a {
+    display: block !important;
+    padding: 28px 0 !important;
+    border-top: 3px solid #111111 !important;
+    color: #d85a2a !important;
+    font-family: Impact, "Arial Black", sans-serif !important;
+    font-size: 48px !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+}
+
+.pdf-liste a:last-child {
+    border-bottom: 3px solid #111111 !important;
+}
+
+.pdf-liste span {
+    display: inline-block !important;
+    width: 70px !important;
+    color: #111111 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+}
+.ohne-linie {
+    border-top: none !important;
+    padding-top: 0 !important;
+}
